@@ -58,3 +58,8 @@ li {
 .listdiv {
 	margin-top: 1rem;
 }
+
+.strike:checked + li {
+	text-decoration: line-through;
+}
+
