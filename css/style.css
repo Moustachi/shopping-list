@@ -1,5 +1,5 @@
 header h1 {
-	/*background-color: yellow;*/
+	background-color: yellow;
 	font-family: Arial, Helvetica, sans-serif;
 	height:3em;
 	margin: 0 auto;
@@ -13,26 +13,8 @@ body {
 
 section {
 	height: 23em;
-	/*background-color: teal;*/
+	background-color: teal;
 	padding-top: 3em;
-}
-
-.list{
-	/*background-color: pink;*/
-	text-align: left;
-	padding-left: 5.2rem;
-	font-size: 15pt;
-	font-weight: bold;
-	line-height: 2.9rem;
-	width: 10em;
-}
-
-.list p {
-	/*background-color: brown;*/
-	width: 8rem;
-	margin: 0 auto;
-	display: inline;
-	margin-left: 3rem;
 }
 
 .text-input {
@@ -41,18 +23,8 @@ section {
 	padding-bottom: 2em;
 }
 
-.trash {
-	/*background-color: yellow;*/
-	display: block;
-	text-align: right;
-	width: 3em;
-	float:right;
-	margin-right: 5rem;
-	margin-top: -18rem;
-}
-
 footer {
-	/*background-color: orange;*/
+	background-color: orange;
 	height: 3em;
 	text-align: center;
 	padding-top: 1rem;
@@ -62,6 +34,27 @@ footer p {
 	font-size: 8pt;
 }
 
-ul {
-	/*background-color: red;*/
+#shoppinglist {
+	background-color: red;
+	border: 1px solid black;
+	margin: 0 auto;
+	width: 15em;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	width:15rem;
+	display:inline-block;
+	border: 1px solid black;
+	text-align: left;
+}
+
+.newtextdiv {
+	margin-left: 0;
+	margin-bottom: 1rem;
+}
+
+.listdiv {
+	margin-top: 1rem;
 }
